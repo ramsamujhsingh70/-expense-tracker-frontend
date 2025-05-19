@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# 💸 Expense Tracker Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sleek and responsive React.js-based frontend for the **Expense Tracker** app. Built to help users manage and visualize their spending efficiently.
 
-## Available Scripts
+🔗 **Live Demo:** [expense-tracker-frontend](https://expense-tracker-frontend-neon-eight.vercel.app/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🧾 Add, edit, and delete expenses
+- 📊 Dashboard with total summary and recent transactions
+- 🔐 Authentication (Login, Signup, Reset Password)
+- 📬 Forgot password email flow
+- 📅 Date-wise tracking
+- 🌙 Light & Dark Mode UI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js + TailwindCSS
+- Axios for API requests
+- React Router DOM
+- Vercel (for deployment)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔧 Environment Variables
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Create a `.env` file in the root with:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```env
+VITE_API_BASE_URL=https://expense-tracker-backend-8csc.onrender.com
+🧑‍💻 Run Locally
+bash
+Copy
+Edit
+git clone https://github.com/your-username/expense-tracker-frontend.git
+cd expense-tracker-frontend
+npm install
+npm run dev
+📦 Deployment
+This project is deployed on Vercel. Any changes pushed to main branch will auto-deploy.
 
-### `npm run eject`
+📁 Folder Structure
+bash
+Copy
+Edit
+src/
+│
+├── pages/           # Login, Signup, Dashboard, etc.
+├── components/      # Reusable components like Modals, Charts
+├── api/             # Axios instance
+└── App.jsx
+![image](https://github.com/user-attachments/assets/6a21f234-2c1f-4ecb-87c8-d8c525eeef21)
+![image](https://github.com/user-attachments/assets/b303f75e-dde0-4ea1-8f60-06abcb92f039)
+![image](https://github.com/user-attachments/assets/66d51e77-5e09-408e-93e4-6467a98620f0)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
