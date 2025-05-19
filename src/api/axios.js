@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'https://expense-tracker-backend-8csc.onrender.com',
 });
 
 export default instance;
